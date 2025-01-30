@@ -13,7 +13,6 @@ public class Exercise6 {
         // TODO: Write code here
 
         // Get the value from unresponsiveFlux into a String list but give up after 5 seconds
-        // Come back and do this when you've learnt about operators!
         // TODO: Write code here
 
         System.out.println("Press a key to end");

@@ -7,15 +7,15 @@ public class Exercise7 {
 
     public static void main(String[] args) throws IOException {
 
-        // Use ReactiveSources.intNumberMono() and ReactiveSources.userMono()
+        // Use ReactiveSources.intNumbersFlux() and ReactiveSources.intNumbersFluxWithRepeat()
 
         // Print all values from intNumbersFlux that's greater than 5
         // TODO: Write code here
 
-        // Print 10 times each value from intNumbersFlux that's greater than 5
+        // Print 10 multiplied by each value from intNumbersFlux that's greater than 5
         // TODO: Write code here
 
-        // Print 10 times each value from intNumbersFlux for the first 3 numbers emitted that's greater than 5
+        // Print 10 multiplied by each value from intNumbersFlux for the first 3 numbers emitted that's greater than 5
         // TODO: Write code here
 
         // Print each value from intNumbersFlux that's greater than 20. Print -1 if no elements are found
@@ -29,6 +29,7 @@ public class Exercise7 {
 
         // Print from intNumbersFluxWithRepeat excluding immediately repeating numbers
         // TODO: Write code here
+        // TODO: extra challenge: do this by implementing a custom BaseSubscriber
 
         System.out.println("Press a key to end");
         System.in.read();

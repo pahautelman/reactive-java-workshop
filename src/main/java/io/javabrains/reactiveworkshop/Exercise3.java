@@ -10,6 +10,7 @@ public class Exercise3 {
 
         // Get all numbers in the ReactiveSources.intNumbersFlux stream
         // into a List and print the list and its size
+        // do not block the stream! ie, do not use toStream() or toList() methods
         // TODO: Write code here
 
 
